@@ -1,0 +1,31 @@
+Q1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	Changes in the code is bound to happen. Keeping the changes by retaining the old copies might sound easy and workable solution in case of 1 or 2 files. Even in this scenario if the changes are happening very frequently and continuously, it would become difficult to have so many copies and track of it. It becomes very much manual.
+	For the scenaior where the changes are minimul and have only multiple copies of old files, there are tools available in both windowsn adn mac system to check the difference between the two files. On Windows its FC and on mac/linux its diff. Using this tool its very easy to find the differences between files. This will save a lot of time compare to when its done manually.
+
+Q2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	This is help..
+	a. Knowing the changes done
+	b. Chance to look how the file was at different intervals of time
+	c. Retrieve the file at certain point in time
+
+Q3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+	Pros:
+	1. Limited commits resulting in limited versions.
+	2. Each commit is logical and can be traced to one fix/addition/logical-end
+	3. Easy to mangage and track the changes
+	Cons:
+	1. Easy to forget to commit after every logical complition of task
+	2. Accidental deletion or corruption of files
+
+Q4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	A repository is a collection of inter related files. Changes done in multiple files could be related to each other or part of one logical change. It would be prudent to save the snapshopt of all the changes in one short to relate it better in future. Also it is good to save the entire snapshot of the repository for every commits.
+
+Q5. How can you use the commands git log and git diff to view the history of files?
+	git log is used to view the entire history of the repository. This will show commit id, timestamp and the messages passed during the commit.
+	git diff is used to view the difference between the two commits. Pass the two commit id's to git diff command and it will show the difference.
+
+Q5. How might using version control make you more confident to make changes that could break something?
+	Pretty confident. With Version control in place, we could go back to any previous working state and find out which commit broke the program. This will also make the developer confident to explore the entire repository and try doing some changes without worrying about breaking the system.
+
+Q6 Now that you have your workspace set up, what do you want to try using Git for?
+	I want to version control every file that I create not limited only to code. This will help me to track the updates and also to revert back to previous versions as required.
