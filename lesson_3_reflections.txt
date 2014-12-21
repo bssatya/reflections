@@ -4,4 +4,14 @@ Q1. When would you want to use a remote repository rather than keeping all your 
 Q2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 	Manual will be more controlled. This is required as to do the update only at the relevent time and one knows the changes happened because of update.
 
+Q3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	Fork : Fork is a feature provided by github for cloning the repository on the github account
+	Clone : Clone the github repository to local
+	Branch : A deviation from the master branch with root as master, usually done to start working on different use case/feature or experimental changes
+
+Q4. What is the benefit of having a copy of the last known state of the remote stored locally?
+	This will help in knowing what has changed in the remote and merging
+
+Q5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Over the email. It would be very difficult.
 
